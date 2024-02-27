@@ -1,0 +1,64 @@
+@import "./../../../styles/variables.scss";
+
+.cardContainer {
+  width: max-content;
+  background-color: $white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.5rem;
+
+  img {
+    width: 30vmin;
+    align-self: center;
+    margin: 1.5rem 0rem;
+  }
+
+  .cardTab {
+    display: flex;
+    color: $card-tab-text;
+    gap: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    li {
+      background-color: $card-tab;
+      width: fit-content;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+
+  h4 {
+    align-self: center;
+    font-weight: 700;
+    color: $card-text;
+  }
+
+  p {
+    color: $text-color;
+  }
+
+  .prices {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    font-size: 0.8rem;
+
+    .currentPrice {
+      color: $text-color;
+      font-size: 1.25rem;
+    }
+
+    .prevPrice {
+      color: $prevPrice;
+    }
+
+    .discount {
+      color: $discount;
+    }
+  }
+}
