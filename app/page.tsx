@@ -15,17 +15,33 @@ export default function Home() {
       <main>
         <h1>{pageData?.mainHeading}</h1>
         <hr />
+        <div className={style.subHead}>
+          <div className={style.metaInfo}>
+            {pageData?.metaData?.data?.map((item: any) => (
+              <span key={item?.text}>
+                <img src={item?.icon} alt={item?.text} />
+                <p>{item?.text}</p>
+              </span>
+            ))}
+          </div>
+        </div>
         <hr />
         <ul className={style.tabs}>
           {pageData?.tab?.map((tab: string) => (
             <li key={tab}>{tab}</li>
           ))}
         </ul>
-        <Breadcrumb />
+        <Breadcrumb breadCrumbs={pageData?.breadCrumbs} />
         <div className={style.tilesContainer}>
-          {pageData?.tiles?.map((tile: any) => (
+          {pageData?.tiles?.map((tile: any, index: number) => (
             <Fragment key={tile}>
-              <Tiles />
+              <Tiles
+                tag={tile?.tag}
+                tileImg={tile?.tileImg}
+                index={index + 1}
+                tileDescription={tile?.tileDescription}
+                tileRatingInfo={tile?.tileRatingInfo}
+              />
             </Fragment>
           ))}
         </div>
@@ -34,7 +50,14 @@ export default function Home() {
           <div className={style.deals}>
             {pageData?.deals?.map((deal: any) => (
               <Fragment key={deal}>
-                <Card />
+                <Card
+                  img={deal?.img}
+                  offers={deal?.offers}
+                  heading={deal?.heading}
+                  info={deal?.info}
+                  prices={deal?.prices}
+                  btnText={deal?.btnText}
+                />
               </Fragment>
             ))}
           </div>

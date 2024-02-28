@@ -1,5 +1,15 @@
 {
   "mainHeading": "Best Website builders in the US",
+  "metaData": {
+    "data": [
+      {
+        "icon": "/imgs/check-mark.png",
+        "text": "Last Updated - February 22, 2020"
+      },
+      { "icon": "/imgs/info.png", "text": "Advertising Disclosure" }
+    ],
+    "filter": "Top Relevent"
+  },
   "tab": [
     "Tools",
     "AWS Builder",
@@ -13,11 +23,11 @@
     {
       "tag": {
         "tagIcon": "/imgs/trophy.png",
-        "tag": "Best Choice"
+        "tagName": "Best Choice"
       },
       "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
       "tileDescription": {
-        "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "tilePara": "<span>WixPro 72-Inch Responsive Website Builder-</span> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
         "highLightHead": "Main highlights",
         "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
         "btnText": "Show more"
@@ -32,19 +42,39 @@
     },
     {
       "tag": {
-        "tagIcon": "/imgs/trophy.png",
-        "tag": "Best Choice"
+        "tagIcon": "/imgs/diamond.png",
+        "tagName": "Best Value"
       },
-      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
+      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder2" },
       "tileDescription": {
         "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "highLightHead": "Main highlights",
+        "highLightText": "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
+        "btnText": "Show more"
+      },
+      "tileRatingInfo": {
+        "ratings": {
+          "rating": "9.5",
+          "rateInfo": "Excellent"
+        },
+        "btnText": "View"
+      }
+    },
+    {
+      "tag": {
+        "tagIcon": "",
+        "tagName": ""
+      },
+      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder3" },
+      "tileDescription": {
+        "tilePara": "<span>WixPro 72-Inch Responsive Website Builder-</span> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
         "highLightHead": "Main highlights",
         "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
         "btnText": "Show more"
       },
       "tileRatingInfo": {
         "ratings": {
-          "rating": "9.8",
+          "rating": "9.3",
           "rateInfo": "Exceptional"
         },
         "btnText": "View"
@@ -52,40 +82,20 @@
     },
     {
       "tag": {
-        "tagIcon": "/imgs/trophy.png",
-        "tag": "Best Choice"
+        "tagIcon": "",
+        "tagName": ""
       },
-      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
+      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder4" },
       "tileDescription": {
-        "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "tilePara": "<span>CDK Resposive Builder:</span> An extensive library of widgets and apps, and detailed step-by-step guides",
         "highLightHead": "Main highlights",
         "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
         "btnText": "Show more"
       },
       "tileRatingInfo": {
         "ratings": {
-          "rating": "9.8",
-          "rateInfo": "Exceptional"
-        },
-        "btnText": "View"
-      }
-    },
-    {
-      "tag": {
-        "tagIcon": "/imgs/trophy.png",
-        "tag": "Best Choice"
-      },
-      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
-      "tileDescription": {
-        "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
-        "highLightHead": "Main highlights",
-        "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
-        "btnText": "Show more"
-      },
-      "tileRatingInfo": {
-        "ratings": {
-          "rating": "9.8",
-          "rateInfo": "Exceptional"
+          "rating": "9.1",
+          "rateInfo": "Good"
         },
         "btnText": "View"
       }

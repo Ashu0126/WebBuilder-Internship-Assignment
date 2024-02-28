@@ -9,12 +9,35 @@
 
   main {
     align-self: center;
-    width: calc(1024px / 16px);
+    width: 90%;
+    max-width: 1024px;
 
     h1 {
       color: $tile-head;
       font-weight: 400;
       font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .subHead {
+      font-size: 0.8rem;
+      color: $tile-text;
+      padding: 0.7rem 0;
+
+      .metaInfo {
+        display: flex;
+        gap: 2rem;
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+          img {
+            width: 1.25rem;
+            opacity: 0.6;
+          }
+        }
+      }
     }
 
     .tabs {
@@ -28,6 +51,7 @@
         padding: 0.5rem 1.5rem 0.5rem 1rem;
         background-color: $white;
         border-radius: 0.75rem;
+        width: max-content;
       }
     }
 
@@ -69,7 +93,7 @@
 
         input {
           border-radius: 0.75rem 0 0 0.75rem;
-          width: 21.75rem;
+          max-width: 21.75rem;
           outline: none;
           padding-left: 1.5rem;
         }
@@ -80,6 +104,47 @@
           padding: 1rem;
           width: fit-content;
           min-width: max-content;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    main {
+      margin: 0 1rem;
+      h1 {
+        font-size: 7vmin;
+      }
+
+      .tabs {
+        overflow-x: scroll;
+      }
+
+      .dealsContainer {
+        h2 {
+          font-size: 5.5vmin;
+        }
+        .deals {
+          overflow-x: scroll;
+        }
+      }
+
+      .signUp {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        h2 {
+          font-size: 5.5vmin;
+          width: 100%;
+          text-align: center;
+          margin-left: 0;
+        }
+
+        .email {
+          justify-content: center;
         }
       }
     }

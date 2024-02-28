@@ -1,13 +1,15 @@
 import style from "./index.module.scss";
 
-const Breadcrumb = () => {
+const Breadcrumb = (props: { breadCrumbs: any }) => {
+  const { breadCrumbs } = props;
+
   return (
     <div className={style.breadcrumbContainer}>
-      <a href={"#"}>Home</a>
-      <a href={"#"}>Home</a>
-      <a href={"#"}>Home</a>
-      <a href={"#"}>Home</a>
-      <a href={"#"}>Home</a>
+      {breadCrumbs?.map((item: any) => (
+        <a key={item} href="#">
+          {item}
+        </a>
+      ))}
     </div>
   );
 };
