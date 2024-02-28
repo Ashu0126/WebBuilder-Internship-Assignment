@@ -1,0 +1,9 @@
+@import "./../../../styles/variables.scss";
+
+.breadcrumbContainer {
+  display: flex;
+  color: $breadcrumb;
+  gap: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
