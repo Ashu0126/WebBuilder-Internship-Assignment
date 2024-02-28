@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Radiant Riches LLC Internship Selection Test
 
-## Getting Started
+Welcome to the Radiant Riches LLC Internship Selection Test!
 
-First, run the development server:
+This project is a web builder application built using Next.js for the purpose of participating in the Radiant Riches LLC internship selection process. The application is hosted on Netlify for evaluation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Application Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This Next.js application is built to fulfill the internship selection assignment provided by Radiant Riches LLC. It includes:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Rendering of a webpage based on the design provided in Figma.
+- Ensuring mobile responsiveness and cross-browser compatibility.
+- Hosting on Netlify for evaluation.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instructions
 
-## Learn More
+To view the application and participate in the evaluation process:
 
-To learn more about Next.js, take a look at the following resources:
+1. Visit the application hosted on Netlify: [Radiant Riches LLC Internship Selection Test](https://webbuilder-assignment.netlify.app/).
+2. Explore the web builder functionality to create webpages based on the provided design in Figma.
+3. Test the responsiveness of the created webpages on different devices.
+4. Ensure the accuracy in replicating the provided design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Evaluation Criteria
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The evaluation of the application is based on the following criteria:
 
-## Deploy on Vercel
+- Accuracy in replicating the provided design.
+- Functionality and user experience of the web builder tool.
+- Adherence to specified technologies and techniques.
+- Responsiveness and cross-browser compatibility of the created webpages.
+- Hosting on Netlify as specified.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Submission
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The application has been submitted for evaluation on Netlify as per the deadline provided by Radiant Riches LLC. The Netlify link for the application has been shared with the Radiant Riches LLC team for assessment.
+
+Thank you for considering this application for the Radiant Riches LLC internship selection process!
+
+_Note: This README serves as documentation for the project and should not be used for communication or replies._
