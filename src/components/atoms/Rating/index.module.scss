@@ -1,0 +1,13 @@
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.star {
+  font-size: 1rem;
+  color: gold;
+
+  &:hover ~ .star:before {
+    opacity: 1;
+  }
+}

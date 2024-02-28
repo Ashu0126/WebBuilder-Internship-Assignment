@@ -1,39 +1,60 @@
 import Button from "../../atoms/Button";
+import Rating from "../../atoms/Rating";
 import style from "./index.module.scss";
 
-const Tiles = () => {
+interface ITiles {
+  tag?: {
+    tagIcon: string;
+    tagName: string;
+  };
+  tileImg: { img: string; caption: string };
+  tileDescription: {
+    tilePara: string;
+    highLightHead: string;
+    highLightText: string;
+    btnText: string;
+  };
+  tileRatingInfo: {
+    ratings: {
+      rating: string;
+      rateInfo: string;
+    };
+    btnText: string;
+  };
+  index: number;
+}
+
+const Tiles = (props: ITiles) => {
+  const { tag, tileImg, tileDescription, tileRatingInfo, index } = props;
+
   return (
     <div className={style.tileContainer}>
-      <div className={style.tag}>
-        <img src="/imgs/trophy.png" alt="" />
-        Best Seller
-      </div>
-      <div className={style.index}>1</div>
+      {tag && (
+        <div className={style.tag}>
+          <img src={tag?.tagIcon} alt={tag?.tagName} />
+          {tag?.tagName}
+        </div>
+      )}
+      <div className={style.index}>{index}</div>
       <div className={style.imgSection}>
-        <img src="/imgs/card_img.png" alt="" />
-        <p>Builder 1</p>
+        <img src={tileImg?.img} alt={tileImg?.caption} />
+        <p>{tileImg?.caption}</p>
       </div>
       <div className={style.tileInfo}>
-        <p>
-          <span>WixPro 72-Inch Responsive Website Builder- </span>
-          Comprehensive Digital Platform Creation Tool, Streamlined Design
-          Interface for Professional Websites and Online Stores (Black/Blue)
-        </p>
-        <h4>Main highlights</h4>
-        <p className={style.highlights}>
-          [What You Get]: Gain access to the SiteCraft design studio, featuring
-          a robust selection of design elements, SEO optimization tools, and
-          e-commerce integrations.
-        </p>
-        <button>show more</button>
+        <p dangerouslySetInnerHTML={{ __html: tileDescription?.tilePara }} />
+        <h4>{tileDescription?.highLightHead}</h4>
+        <p className={style.highlights}>{tileDescription?.highLightText}</p>
+        <button>{tileDescription?.btnText}</button>
       </div>
       <div className={style.ratingContainer}>
         <div className={style.rating}>
-          <p className={style.rate}>9.3</p>
-          <p>Exceptional</p>
-          <div className={style.stars}></div>
+          <p className={style.rate}>{tileRatingInfo?.ratings?.rating}</p>
+          <p>{tileRatingInfo?.ratings?.rateInfo}</p>
+          <div className={style.stars}>
+            <Rating rating={7.8} />
+          </div>
         </div>
-        <Button btnText="View" />
+        <Button btnText={tileRatingInfo?.btnText} />
       </div>
     </div>
   );

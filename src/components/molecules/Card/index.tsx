@@ -1,22 +1,38 @@
 import Button from "../../atoms/Button";
 import style from "./index.module.scss";
 
-const Card = () => {
+interface ICard {
+  img: string;
+  offers: any;
+  heading: string;
+  info: string;
+  prices: {
+    currPrice: string;
+    prevPrice: string;
+    discount: string;
+  };
+  btnText: string;
+}
+
+const Card = (props: ICard) => {
+  const { img, info, offers, heading, prices, btnText } = props;
+
   return (
     <div className={style.cardContainer}>
-      <img src="/imgs/card_img.png" alt="" />
+      <img src={img} alt={heading} />
       <ul className={style.cardTab}>
-        <li>20% Off</li>
-        <li>Limited time</li>
+        {offers?.map((offer: string) => (
+          <li key={offer}>{offer}</li>
+        ))}
       </ul>
-      <h4>Webbuilder 1</h4>
-      <p>Computer Modern clasic with wix support</p>
+      <h4>{heading}</h4>
+      <p>{info}</p>
       <ul className={style.prices}>
-        <li className={style.currentPrice}>$39.96</li>
-        <li className={style.prevPrice}>$49.96</li>
-        <li className={style.discount}>(20% Off)</li>
+        <li className={style.currentPrice}>{prices?.currPrice}</li>
+        <li className={style.prevPrice}>{prices?.prevPrice}</li>
+        <li className={style.discount}>{prices?.discount}</li>
       </ul>
-      <Button btnText="View Deal" />
+      <Button btnText={btnText} />
     </div>
   );
 };
