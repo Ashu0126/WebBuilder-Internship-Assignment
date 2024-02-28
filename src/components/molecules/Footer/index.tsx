@@ -1,25 +1,23 @@
+import { Fragment } from "react";
+import DropDownButton from "../../atoms/DropDownButton";
 import style from "./index.module.scss";
-
-export const FooterTabs = () => {
-  return (
-    <div className={style.footerTabs}>
-      <p>Categories</p>
-      <ul>
-        <li>Web Builder</li>
-        <li>Hosting</li>
-        <li>Data Center</li>
-        <li>Robotic-Automation</li>
-      </ul>
-    </div>
-  );
-};
+import pageData from "@/src/data/footer.json";
 
 const Footer = () => {
   return (
     <div className={style.footer}>
-      <FooterTabs />
-      <FooterTabs />
-      <p>Language</p>
+      {pageData?.footerTabs?.map((item: any) => (
+        <div key={item?.tabHeading} className={style.footerTabs}>
+          <p>{item?.tabHeading}</p>
+          <ul>
+            {item?.tabs?.map((tab: string) => (
+              <li key={tab}>{tab}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+
+      <DropDownButton btnText={pageData?.languageBtn} />
     </div>
   );
 };

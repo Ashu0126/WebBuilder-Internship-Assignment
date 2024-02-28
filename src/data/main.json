@@ -61,10 +61,7 @@
       }
     },
     {
-      "tag": {
-        "tagIcon": "",
-        "tagName": ""
-      },
+      "tag": {},
       "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder3" },
       "tileDescription": {
         "tilePara": "<span>WixPro 72-Inch Responsive Website Builder-</span> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
@@ -74,17 +71,14 @@
       },
       "tileRatingInfo": {
         "ratings": {
-          "rating": "9.3",
+          "rating": "6.3",
           "rateInfo": "Exceptional"
         },
         "btnText": "View"
       }
     },
     {
-      "tag": {
-        "tagIcon": "",
-        "tagName": ""
-      },
+      "tag": {},
       "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder4" },
       "tileDescription": {
         "tilePara": "<span>CDK Resposive Builder:</span> An extensive library of widgets and apps, and detailed step-by-step guides",
