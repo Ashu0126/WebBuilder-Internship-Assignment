@@ -1,0 +1,19 @@
+{
+  "languageBtn": "United States",
+  "footerTabs": [
+    {
+      "tabHeading": "CATEGORIES",
+      "tabs": ["Web Builder", "Hosting", "Data Center", "Robotic-Automation"]
+    },
+    {
+      "tabHeading": "CONTACT",
+      "tabs": [
+        "Contact",
+        "Privacy Policy",
+        "Terms Of Service",
+        "Categories",
+        "About"
+      ]
+    }
+  ]
+}

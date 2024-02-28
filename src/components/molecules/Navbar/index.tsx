@@ -1,18 +1,19 @@
 import style from "./index.module.scss";
+import pageData from "@/src/data/navbar.json";
 
 const Navbar = () => {
   return (
     <div className={style.navbar}>
       <div className={style.searchBar}>
         <div>
-          <img src="/imgs/search.png" alt="" />
+          <img src={pageData?.inputSearchImg} alt="" />
         </div>
         <input type="text" />
       </div>
       <ul>
-        <li>Categories</li>
-        <li>Website Builders</li>
-        <li>Todays deals</li>
+        {pageData?.navTab?.map((tab: string) => (
+          <li key={tab}>{tab}</li>
+        ))}
       </ul>
     </div>
   );

@@ -1,0 +1,137 @@
+{
+  "mainHeading": "Best Website builders in the US",
+  "tab": [
+    "Tools",
+    "AWS Builder",
+    "Start Build",
+    "Build Supplies",
+    "Tooling",
+    "BlueHosting"
+  ],
+  "breadCrumbs": ["Home", "Hosting for all", "Hosting", "Hosting6", "Hosting5"],
+  "tiles": [
+    {
+      "tag": {
+        "tagIcon": "/imgs/trophy.png",
+        "tag": "Best Choice"
+      },
+      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
+      "tileDescription": {
+        "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "highLightHead": "Main highlights",
+        "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+        "btnText": "Show more"
+      },
+      "tileRatingInfo": {
+        "ratings": {
+          "rating": "9.8",
+          "rateInfo": "Exceptional"
+        },
+        "btnText": "View"
+      }
+    },
+    {
+      "tag": {
+        "tagIcon": "/imgs/trophy.png",
+        "tag": "Best Choice"
+      },
+      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
+      "tileDescription": {
+        "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "highLightHead": "Main highlights",
+        "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+        "btnText": "Show more"
+      },
+      "tileRatingInfo": {
+        "ratings": {
+          "rating": "9.8",
+          "rateInfo": "Exceptional"
+        },
+        "btnText": "View"
+      }
+    },
+    {
+      "tag": {
+        "tagIcon": "/imgs/trophy.png",
+        "tag": "Best Choice"
+      },
+      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
+      "tileDescription": {
+        "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "highLightHead": "Main highlights",
+        "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+        "btnText": "Show more"
+      },
+      "tileRatingInfo": {
+        "ratings": {
+          "rating": "9.8",
+          "rateInfo": "Exceptional"
+        },
+        "btnText": "View"
+      }
+    },
+    {
+      "tag": {
+        "tagIcon": "/imgs/trophy.png",
+        "tag": "Best Choice"
+      },
+      "tileImg": { "img": "/imgs/card_img.png", "caption": "Builder1" },
+      "tileDescription": {
+        "tilePara": "<span>SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+        "highLightHead": "Main highlights",
+        "highLightText": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+        "btnText": "Show more"
+      },
+      "tileRatingInfo": {
+        "ratings": {
+          "rating": "9.8",
+          "rateInfo": "Exceptional"
+        },
+        "btnText": "View"
+      }
+    }
+  ],
+  "dealsHeadings": "Related deals you might like for",
+  "deals": [
+    {
+      "img": "/imgs/card_img.png",
+      "offers": ["20% Off", "Limited time"],
+      "heading": "Webbuilder1",
+      "info": "Computer Mdern classic with wix support",
+      "prices": {
+        "currPrice": "$39.96",
+        "prevPrice": "$49.96",
+        "discount": "(20% Off)"
+      },
+      "btnText": "View Deal"
+    },
+    {
+      "img": "/imgs/card_img.png",
+      "offers": ["20% Off", "Limited time"],
+      "heading": "Webbuilder1",
+      "info": "Computer Mdern classic with wix support",
+      "prices": {
+        "currPrice": "$39.96",
+        "prevPrice": "$49.96",
+        "discount": "(20% Off)"
+      },
+      "btnText": "View Deal"
+    },
+    {
+      "img": "/imgs/card_img.png",
+      "offers": ["20% Off", "Limited time"],
+      "heading": "Webbuilder1",
+      "info": "Computer Mdern classic with wix support",
+      "prices": {
+        "currPrice": "$39.96",
+        "prevPrice": "$49.96",
+        "discount": "(20% Off)"
+      },
+      "btnText": "View Deal"
+    }
+  ],
+  "signUpLetter": {
+    "content": "Sign up and get exclusive special deals",
+    "btnText": "Sign Up"
+  }
+}
