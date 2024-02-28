@@ -1,12 +1,10 @@
 import Button from "../../atoms/Button";
+import DropDownButton from "../../atoms/DropDownButton";
 import Rating from "../../atoms/Rating";
 import style from "./index.module.scss";
 
 interface ITiles {
-  tag?: {
-    tagIcon: string;
-    tagName: string;
-  };
+  tag?: any;
   tileImg: { img: string; caption: string };
   tileDescription: {
     tilePara: string;
@@ -29,7 +27,7 @@ const Tiles = (props: ITiles) => {
 
   return (
     <div className={style.tileContainer}>
-      {tag && (
+      {Object.values(tag).length != 0 && (
         <div className={style.tag}>
           <img src={tag?.tagIcon} alt={tag?.tagName} />
           {tag?.tagName}
@@ -44,14 +42,14 @@ const Tiles = (props: ITiles) => {
         <p dangerouslySetInnerHTML={{ __html: tileDescription?.tilePara }} />
         <h4>{tileDescription?.highLightHead}</h4>
         <p className={style.highlights}>{tileDescription?.highLightText}</p>
-        <button>{tileDescription?.btnText}</button>
+        <DropDownButton btnText={tileDescription?.btnText} />
       </div>
       <div className={style.ratingContainer}>
         <div className={style.rating}>
           <p className={style.rate}>{tileRatingInfo?.ratings?.rating}</p>
           <p>{tileRatingInfo?.ratings?.rateInfo}</p>
           <div className={style.stars}>
-            <Rating rating={7.8} />
+            <Rating rating={tileRatingInfo?.ratings?.rating} />
           </div>
         </div>
         <Button btnText={tileRatingInfo?.btnText} />

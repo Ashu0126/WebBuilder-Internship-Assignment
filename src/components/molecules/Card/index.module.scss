@@ -10,6 +10,13 @@
   justify-content: center;
   align-items: flex-start;
   gap: 0.5rem;
+  transform: scale(1);
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.03);
+    transition: 1s;
+  }
 
   img {
     width: 30vmin;

@@ -7,6 +7,7 @@ import { Fragment } from "react";
 import Card from "@/src/components/molecules/Card";
 import Footer from "@/src/components/molecules/Footer";
 import Button from "@/src/components/atoms/Button";
+import DropDownButton from "@/src/components/atoms/DropDownButton";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
               </span>
             ))}
           </div>
+          <DropDownButton btnText={pageData?.metaData?.filter} />
         </div>
         <hr />
         <ul className={style.tabs}>

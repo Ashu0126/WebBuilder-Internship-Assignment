@@ -10,6 +10,12 @@
   padding: 0 2rem;
   position: relative;
   margin: 3rem 0;
+  transition: 1s;
+
+  &:hover {
+    box-shadow: 1px 1px 10px $border-color;
+    transition: 0.5s;
+  }
 
   .tag {
     display: flex;
@@ -123,7 +129,11 @@
     gap: 1rem;
 
     .index {
-      display: none;
+      left: 0;
+      border-radius: 0;
+      background-color: $rating-back;
+      border-color: $rating-back;
+      border-radius: 0 0.75rem 0.75rem 0;
     }
 
     .imgSection {
