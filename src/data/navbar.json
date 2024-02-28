@@ -1,4 +1,6 @@
 {
+  "menuIcon": "/imgs/more.png",
+  "crossIcon": "/imgs/cross.png",
   "inputSearchImg": "/imgs/search.png",
   "navTab": ["Categories", "Website Builders", "Today's deals"]
 }

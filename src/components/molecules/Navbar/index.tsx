@@ -19,14 +19,19 @@ const Navbar = () => {
         <input type="text" />
       </div>
       <div className={`${style.navTabs} ${open ? style.show : ""}`}>
-        <img src="/imgs/cross.png" alt="" onClick={menu} />
+        <img src={pageData?.crossIcon} alt="close" onClick={menu} />
         <ul>
           {pageData?.navTab?.map((tab: string) => (
             <li key={tab}>{tab}</li>
           ))}
         </ul>
       </div>
-      <img className={style.more} onClick={menu} src="/imgs/more.png" alt="" />
+      <img
+        className={style.more}
+        onClick={menu}
+        src={pageData?.menuIcon}
+        alt="menu"
+      />
     </div>
   );
 };

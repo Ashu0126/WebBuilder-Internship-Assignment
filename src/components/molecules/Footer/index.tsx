@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import DropDownButton from "../../atoms/DropDownButton";
 import style from "./index.module.scss";
 import pageData from "@/src/data/footer.json";
