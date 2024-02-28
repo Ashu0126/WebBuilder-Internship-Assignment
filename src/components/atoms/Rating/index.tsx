@@ -1,6 +1,6 @@
 import React from "react";
 
-const Rating = ({ rating }) => {
+const Rating = ({ rating }: any) => {
   const renderStars = () => {
     const integerPart = Math.floor(rating); // Extract integer part
     const decimalPart = rating - integerPart; // Extract decimal part
